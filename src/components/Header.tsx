@@ -17,7 +17,11 @@ function Left() {
         href="https://github.com/syntax-tree/mdast-util-from-markdown"
         target="_blank"
       >
-        <img className="size-6 rounded" src="/logo.png" alt="icon" />
+        <img
+          className="size-6 rounded"
+          src={`${import.meta.env.BASE_URL}logo.png`}
+          alt="icon"
+        />
         <span>mdast-util-from-markdown</span>
       </a>
 
@@ -41,7 +45,7 @@ function Right() {
 function GitHubLink() {
   return (
     <a
-      href="https://github.com/syntax-tree/mdast-util-from-markdown"
+      href="https://github.com/Goonco/from-markdown-visualizer"
       target="_blank"
       className="hover:opacity-70 flex flex-row items-center gap-1 text-neutral-700"
     >
