@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@ui/*": ["./src/components/ui/*"],
+      "@mdast": ["mut-mdast/index.ts"],
+      "@mdast/*": ["mut-mdast/*"],
+      "@components": ["src/components/index.ts"],
+      "@hooks": ["src/hooks/index.ts"]
+    }
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
